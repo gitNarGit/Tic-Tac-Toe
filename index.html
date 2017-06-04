@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>X_O</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="startGame()">
+    <h1>Welcome to my Tic-Tac-Toe Game ;)</h1>
+    <div id="message">blah</div>
+    <table id = "borderXO" border = "2">
+      <tr>
+        <td id="s1" class = "Square" onclick="nextMove(this);"></td>
+        <td id="s2" class = "Square" onclick="nextMove(this);"></td>
+        <td id="s3" class = "Square" onclick="nextMove(this);"></td>
+      </tr>
+      <tr>
+        <td id="s4" class = "Square" onclick="nextMove(this);"></td>
+        <td id="s5" class = "Square" onclick="nextMove(this);"></td>
+        <td id="s6" class = "Square" onclick="nextMove(this);"></td>
+      </tr>
+      <tr>
+        <td id="s7" class = "Square" onclick="nextMove(this);"></td>
+        <td id="s8" class = "Square" onclick="nextMove(this);"></td>
+        <td id="s9" class = "Square" onclick="nextMove(this);"></td>
+      </tr>
+    </table>
+  <button class = "btn">
+    <a href="javascript: startGame();">Start Over</a>
+  </button>
+  </body>
+</html>
