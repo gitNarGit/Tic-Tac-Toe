@@ -1,12 +1,14 @@
-h1{
-  color:	#0800ee;
-  font-size: 27px;
-  font-family: "Comic Sans MS";
-}
 html{
   background: url(images/smiles.jpg) no-repeat center center fixed;
   background-size: cover;
 }
+
+h1{
+  color: #0800ee;
+  font-size: 27px;
+  font-family: "Comic Sans MS";
+}
+
 .Square{
   width: 50px;
   height: 50px;
@@ -15,12 +17,14 @@ html{
   font-weight: bold;
   font-family: cursive;
 }
+
 #borderXO{
   border: none;
   border-color: #0800ee;
   width: 400px;
   height: 400px;
 }
+
 .btn{
   background-color: #253450;
   font-size: 16px;
@@ -30,9 +34,11 @@ html{
   margin-top: 5px;
   margin-left: 2px;
 }
+
 .btn:hover{
   background-color: #1a263c;
 }
+
 #message{
   color: #0e0c54;
 }
